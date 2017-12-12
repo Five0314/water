@@ -1,0 +1,20 @@
+server:
+  port: 8081
+  context-path: /api
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/water
+    username: root
+    password: 111111
+
+  jpa:
+    database : MYSQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming-strategy : org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
