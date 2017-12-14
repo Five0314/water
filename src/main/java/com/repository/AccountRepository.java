@@ -1,6 +1,6 @@
 package com.repository;
 
-import com.domain.DbAccount;
+import com.domain.entity.DbAccount;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

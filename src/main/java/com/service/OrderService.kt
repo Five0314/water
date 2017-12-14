@@ -1,6 +1,6 @@
 package com.service
 
-import com.domain.DbOrder
+import com.domain.entity.DbOrder
 import com.repository.OrderRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
@@ -16,8 +16,8 @@ class OrderService {
     @Autowired
     private lateinit var orderRepository: OrderRepository
 
-    fun exitOrder(num: String) : DbOrder{
-        val rv = this.orderRepository.findByOrdernum(num)
+    fun exitOrder(num: String) : DbOrder {
+        var rv = this.orderRepository.findByOrdernum(num)
 
         return rv
     }

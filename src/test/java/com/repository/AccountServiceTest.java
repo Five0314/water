@@ -1,7 +1,7 @@
 package com.repository;
 
 
-import com.domain.DbAccount;
+import com.domain.entity.DbAccount;
 import com.service.AccountService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -24,14 +24,11 @@ public class AccountServiceTest {
 
     @Test
     public void loginTest(){
-        DbAccount account = accountService.accountInfo("111111");
 
-        System.out.println("==========");
-        System.out.println(account.getAccount() + " - " + account.getPassword() + " - " + account.getUid() + " - " + account.getCreatetime());
     }
 
     @Test
     public void changePasswordTest(){
-        accountService.changePassword("555555", 5, null);
+
     }
 }
