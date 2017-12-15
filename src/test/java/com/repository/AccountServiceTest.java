@@ -24,7 +24,7 @@ public class AccountServiceTest {
 
     @Test
     public void loginTest(){
-
+        this.accountService.login("1","1");
     }
 
     @Test

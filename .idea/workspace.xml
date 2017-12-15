@@ -2,44 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="858b9bb2-831f-4c96-9a93-9fcbca126ac0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/mac.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/WaterApplication.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/controller/AccountController.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/repository/UserRepository.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/service/AccountService.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/service/UserService.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/AccountServiceImpl.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/repository/AccountRepository.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/utils/ErrorEnum.kt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/WaterApplication.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/AccountController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/OrderController.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/domain/DbAccount.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/domain/DbOrder.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/domain/DbUser.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/repository/AccountRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/repository/AccountRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/repository/OrderRepository.kt" afterPath="$PROJECT_DIR$/src/main/java/com/repository/OrderRepository.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/AccountService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/OrderService.kt" afterPath="$PROJECT_DIR$/src/main/java/com/service/OrderService.kt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WaterApplication.kt" afterPath="$PROJECT_DIR$/src/main/java/com/WaterApplication.kt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/repository/AccountRepository.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/impl/AccountServiceImpl.kt" afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/AccountServiceImpl.kt" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/repository/AccountServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/repository/AccountServiceTest.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Application.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/WaterApplication.class" afterPath="$PROJECT_DIR$/target/classes/com/WaterApplication.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/AccountController.class" afterPath="$PROJECT_DIR$/target/classes/com/controller/AccountController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/OrderController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/domain/DbAccount.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/domain/DbOrder.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/domain/DbUser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WaterApplicationKt.class" afterPath="$PROJECT_DIR$/target/classes/com/WaterApplicationKt.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/repository/AccountRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/repository/AccountRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/repository/OrderRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/repository/OrderRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/service/AccountService.class" afterPath="$PROJECT_DIR$/target/classes/com/service/AccountService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/service/OrderService.class" afterPath="$PROJECT_DIR$/target/classes/com/service/OrderService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/service/impl/AccountServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/service/impl/AccountServiceImpl.class" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/repository/AccountServiceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/repository/AccountServiceTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/repository/OrderServiceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/repository/OrderServiceTest.class" />
-      <change beforePath="$PROJECT_DIR$/water.iml" afterPath="$PROJECT_DIR$/water.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,30 +33,42 @@
       <file leaf-file-name="WaterApplication.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/WaterApplication.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <element signature="e#13#305#0" expanded="true" />
+                <element signature="e#13#130#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+      <file leaf-file-name="ErrorEnum.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/ErrorEnum.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="465">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountService.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/AccountService.kt">
+      <file leaf-file-name="AccountServiceImpl.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/AccountServiceImpl.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="421">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <element signature="e#26#320#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/ResponseResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -89,9 +79,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Interface" />
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -123,15 +114,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/service/UserService.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/AccountService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/AccountController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/repository/AccountServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/AccountService.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/AccountController.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/domain/entity/DbAccount.kt" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/service/impl/AccountServiceImpl.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/repository/AccountRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/repository/AccountRepository.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/WaterApplication.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/repository/AccountServiceTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utils/ResponseResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utils/ErrorEnum.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/impl/AccountServiceImpl.kt" />
       </list>
     </option>
   </component>
@@ -201,7 +196,7 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,11 +285,39 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="water" type="b2602c69:ProjectViewProjectNode" />
+              <item name="water" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="water" type="b2602c69:ProjectViewProjectNode" />
+              <item name="water" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="water" type="b2602c69:ProjectViewProjectNode" />
+              <item name="water" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="water" type="b2602c69:ProjectViewProjectNode" />
+              <item name="water" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,6 +374,31 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="AccountServiceTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="water" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.repository.AccountServiceTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -430,13 +478,15 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.WaterApplication" />
       <item index="1" class="java.lang.String" itemvalue="Kotlin.com.WaterApplicationKt" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AccountServiceTest.loginTest" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Kotlin.com.WaterApplicationKt" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AccountServiceTest.loginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -463,12 +513,18 @@
       <workItem from="1513223444300" duration="9101000" />
       <workItem from="1513240981727" duration="9000" />
       <workItem from="1513241597405" duration="118000" />
-      <workItem from="1513241734681" duration="2797000" />
+      <workItem from="1513241734681" duration="3239000" />
+      <workItem from="1513298202206" duration="11277000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AccountServiceTest_loginTest - 2017.12.15 at 14h 17m 04s.xml">
+      <configuration name="AccountServiceTest.loginTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19647000" />
+    <option name="totallyTimeSpent" value="31366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1417" extended-state="0" />
@@ -490,11 +546,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28329486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32948422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2446386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2466243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -515,33 +571,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WaterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -679,13 +713,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/DbAccount.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/DbUser.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/repository/UserRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/ResponseResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/repository/UserRepository.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -716,13 +743,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/service/AccountService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/AccountController.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/repository/AccountServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/OrderController.kt" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -750,66 +770,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="15" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WaterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/AccountServiceImpl.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
-          <folding>
-            <element signature="e#26#293#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WaterApplication.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Application.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/AccountController.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WaterApplication.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#13#305#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -839,16 +806,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/repository/AccountRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="105">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/repository/AccountRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding>
+            <element signature="e#24#284#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/service/AccountService.kt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WaterApplication.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/repository/AccountServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding>
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/ResponseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/AccountServiceImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#26#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/ErrorEnum.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>

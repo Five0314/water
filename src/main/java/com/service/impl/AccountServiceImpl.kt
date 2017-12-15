@@ -3,6 +3,7 @@ package com.service.impl
 import com.domain.entity.DbAccount
 import com.repository.AccountRepository
 import com.service.AccountService
+import com.utils.ErrorCode
 import com.utils.ResponseResult
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
@@ -35,6 +36,8 @@ class AccountServiceImpl : AccountService {
         else if (!dba.password.equals(password)){
             return ResponseResult.error(100002,"密码错误") as ResponseResult<DbAccount>
         }
+
+//        ErrorCode.Account.AccountNotExit.errorCode
 
         return ResponseResult.success(dba) as ResponseResult<DbAccount>
     }
