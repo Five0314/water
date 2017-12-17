@@ -6,7 +6,7 @@ package com.utils
  * @author Five0314
  * @date create in 上午9:53 2017/12/15
  */
-class ErrorCode (val code: Int, val message: String){
+data class ErrorCode (val code: Int, val message: String){
 //    class Account1{
 //        val AccountNotExit: Account
 //            get() = Account.AccountNotExit
